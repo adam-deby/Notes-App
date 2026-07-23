@@ -8,20 +8,17 @@ public class GameMaster : MonoBehaviour
     public PageLoadNote pageLoadNote { get; private set; }
     public PageNote pageNote { get; private set; }
     public SaveLoadManager saveLoad { get; private set; }
+
+    [SerializeField] private GameObject _pageContainer;
     private void Awake()
     {
         notesManager = GetComponentInChildren<NotesManager>();
         buttonsManager = GetComponentInChildren<ButtonsManager>();
         saveLoad = GetComponentInChildren<SaveLoadManager>();
 
-        GameObject pageNewObject = GameObject.Find("page_new_note");
-        pageNewNote = pageNewObject.GetComponent<PageNewNote>();
-
-        GameObject pageLoadObject = GameObject.Find("page_load_note");
-        pageLoadNote = pageLoadObject.GetComponent<PageLoadNote>();
-
-        GameObject pageNoteObject = GameObject.Find("page_note");
-        pageNote = pageNoteObject.GetComponent<PageNote>();
+        pageNewNote = _pageContainer.GetComponentInChildren<PageNewNote>(true);
+        pageLoadNote = _pageContainer.GetComponentInChildren<PageLoadNote>(true);
+        pageNote = _pageContainer.GetComponentInChildren<PageNote>(true);
     }
 
     public int _maxNotesAmount = 6;

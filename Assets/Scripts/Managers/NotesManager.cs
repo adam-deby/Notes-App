@@ -12,7 +12,7 @@ public class NotesManager : MonoBehaviour
 
     [SerializeField] private NoteScript _notesPrefab;
     [SerializeField] private Transform _notesContainer;
-    [SerializeField] private List<NoteScript> _notesList = new List<NoteScript>();
+    public List<NoteScript> _notesList = new List<NoteScript>();
     public GameObject _selectedNote;
 
     public void CreateList(int amount)

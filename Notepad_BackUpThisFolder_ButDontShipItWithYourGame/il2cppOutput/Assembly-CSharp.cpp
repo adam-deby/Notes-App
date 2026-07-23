@@ -144,10 +144,7 @@ IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C6
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____227AF7196A455F115DB6908EBF86C8142CD77A1A5C8CFAEE16378628F65AE154_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FE692EABE6C4183BF70FDA85E130BD88E5B4C2CCC23B665D8414FD48B326AD54_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E6EE1F01252B0F6C356FE841930ABFD46A5A5A2;
-IL2CPP_EXTERN_C String_t* _stringLiteral58458072691C61AC4021271A234AB7CD1DD89823;
 IL2CPP_EXTERN_C String_t* _stringLiteral63510C8EFCF5D1FA9DF2BA79EAA41197E6FE4542;
-IL2CPP_EXTERN_C String_t* _stringLiteral8A99DB31FA4FF1C2F44F62E43541CF088D0A172B;
-IL2CPP_EXTERN_C String_t* _stringLiteralB02F242735DA352588152B43E7C5D987A55CEBC5;
 IL2CPP_EXTERN_C String_t* _stringLiteralB0D0C71E2F7D78FCB6660AB6BF222E82D2C75DB9;
 IL2CPP_EXTERN_C String_t* _stringLiteralB6E4F66827F3028A861B81A5C1AE386339B8E87E;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
@@ -155,11 +152,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisButtons
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisNotesManager_tD186238281AC6C6DD083D5617258C11C9270050A_m2AC4A8398083C287C1E99BCB272E5ED0DCE92A14_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisSaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400_m36A82302F618D715A497820ECC1D9BD03168B0BF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisGameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B_mCCC091C10A96BF0EBEFF9334B7A884F4FC0FF694_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInChildren_TisPageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C_mDAA1CDBEF0FBAB1D342B8B02F7BF47DAD27844DE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInChildren_TisPageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E_m0805E1EF17575BC74C93834EF1D057E7412CA15D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentInChildren_TisPageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01_m1E99693D32924BB71D71BF69F92A0067B585CAF6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisGameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B_m4FD6F407F9A56511E8B45FD4D25D383F1AE7252B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisNoteScript_t1C9A316730C4AE4A0491098D0F75B9D42ECCC541_mE15A1871D8A82CC51813EF681CF90BE97EE00BC9_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisPageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C_mCB6FEACA9813E62A44A965EFABE01AB5842405DE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisPageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E_m75653C4FFF8355BAD9AFA1C53BEFCA8AF216783D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisPageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01_mC9D5846F86D622A524C9B1A6288F408AC41A45B1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJson_TisSaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29_m1AB04EBB393AB40EC3FB9FC2B514F72AABBDAD8B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mBB61CE77C459A6F27931E552B7FC42CBF1D7FD71_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m832911C68E3164C664F95C1D09646BAFDB8497F5_RuntimeMethod_var;
@@ -1118,6 +1115,7 @@ struct GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B  : public MonoBehavi
 	PageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C* ___U3CpageLoadNoteU3Ek__BackingField;
 	PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* ___U3CpageNoteU3Ek__BackingField;
 	SaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400* ___U3CsaveLoadU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____pageContainer;
 	int32_t ____maxNotesAmount;
 };
 struct NoteScript_t1C9A316730C4AE4A0491098D0F75B9D42ECCC541  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
@@ -1733,26 +1731,27 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInChildren_TisRuntimeObject_mF44830CCE504347DFE1E61EC5F4E02A407D8122C_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_includeInactive, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m75BF3B0A3747B60491845FA41612FE7F795F0A59_gshared (RuntimeObject* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared (String_t* ___0_json, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
 inline GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* Component_GetComponentInParent_TisGameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B_mCCC091C10A96BF0EBEFF9334B7A884F4FC0FF694 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_SwitchPagesOff_m78E599BDDFF438E639B2B3086D186815CAB36812 (ButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* GameMaster_get_notesManager_mF1E3FC17A8802934B215B99C4A8358815D556F28_inline (GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotesManager_CreateNote_m2F15B35346ED332E432285D9F37548725DB243BC (NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E* GameMaster_get_pageNewNote_mEFD9E247B8B6EE18E76793CC41D3B9D96F46FCCF_inline (GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* __this, const RuntimeMethod* method) ;
@@ -1765,6 +1764,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SaveLoadManager_SavePage_mAB96CDD2E74106
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* GameMaster_get_pageNote_mAEF8078851F2BA4548DB643D337AB66DC0FB4AEF_inline (GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PageNote_SynchronizeNote_mA3433A7A9ECE468AC64A62D2760444755BE5F9CF (PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PageNote_ClearAllText_mEAC85204ED52952287CF76BD13A01E1F9491E6DB (PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* __this, const RuntimeMethod* method) ;
+inline NoteScript_t1C9A316730C4AE4A0491098D0F75B9D42ECCC541* List_1_get_Item_m8C924E03DA78899A8690DC38956C7C8C876BB209 (List_1_tF68C9554A6F034A84553ECE014DC6E52B893E7E8* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  NoteScript_t1C9A316730C4AE4A0491098D0F75B9D42ECCC541* (*) (List_1_tF68C9554A6F034A84553ECE014DC6E52B893E7E8*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotesManager_SynchronizeNote_mE5BD2E93074E0D0B7E53E61A0DB7C646BC44A654 (NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* __this, int32_t ___0_id, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SaveLoadManager_LoadPage_mF5326D11FC1CB978A9DD7A0D87B17ED2215C2E9B (SaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400* __this, int32_t ___0_id, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotesManager_DeleteNote_m85716C9745873B2053F1BCF9C3AEA5D5A340ABFD (NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* __this, int32_t ___0_id, const RuntimeMethod* method) ;
@@ -1785,20 +1789,19 @@ inline SaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400* Component_GetC
 	return ((  SaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared)(__this, method);
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameMaster_set_saveLoad_m8C58914A97AB46519A3F61993B90C6FA027ACC39_inline (GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* __this, SaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400* ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300 (String_t* ___0_name, const RuntimeMethod* method) ;
-inline PageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E* GameObject_GetComponent_TisPageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E_m75653C4FFF8355BAD9AFA1C53BEFCA8AF216783D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+inline PageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E* GameObject_GetComponentInChildren_TisPageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E_m0805E1EF17575BC74C93834EF1D057E7412CA15D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_includeInactive, const RuntimeMethod* method)
 {
-	return ((  PageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+	return ((  PageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, bool, const RuntimeMethod*))GameObject_GetComponentInChildren_TisRuntimeObject_mF44830CCE504347DFE1E61EC5F4E02A407D8122C_gshared)(__this, ___0_includeInactive, method);
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameMaster_set_pageNewNote_m5B76DCC97939794D9DB7B60D8D3B0C0E284629FF_inline (GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* __this, PageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E* ___0_value, const RuntimeMethod* method) ;
-inline PageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C* GameObject_GetComponent_TisPageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C_mCB6FEACA9813E62A44A965EFABE01AB5842405DE (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+inline PageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C* GameObject_GetComponentInChildren_TisPageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C_mDAA1CDBEF0FBAB1D342B8B02F7BF47DAD27844DE (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_includeInactive, const RuntimeMethod* method)
 {
-	return ((  PageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+	return ((  PageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, bool, const RuntimeMethod*))GameObject_GetComponentInChildren_TisRuntimeObject_mF44830CCE504347DFE1E61EC5F4E02A407D8122C_gshared)(__this, ___0_includeInactive, method);
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameMaster_set_pageLoadNote_m90929EC1735E718D308E38788ED6924C2EC8DA36_inline (GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* __this, PageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C* ___0_value, const RuntimeMethod* method) ;
-inline PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* GameObject_GetComponent_TisPageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01_mC9D5846F86D622A524C9B1A6288F408AC41A45B1 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+inline PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* GameObject_GetComponentInChildren_TisPageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01_m1E99693D32924BB71D71BF69F92A0067B585CAF6 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_includeInactive, const RuntimeMethod* method)
 {
-	return ((  PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+	return ((  PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, bool, const RuntimeMethod*))GameObject_GetComponentInChildren_TisRuntimeObject_mF44830CCE504347DFE1E61EC5F4E02A407D8122C_gshared)(__this, ___0_includeInactive, method);
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameMaster_set_pageNote_m2E2492654879BD3D3DDCF42026D6F93692A3B04E_inline (GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* __this, PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotesManager_CreateList_m8A971156ADEDF39051B40FF491A0947BA3C2BE9B (NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* __this, int32_t ___0_amount, const RuntimeMethod* method) ;
@@ -1808,10 +1811,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SaveLoadManager_InitializeLoadPage_mCB0E
 inline void List_1_Add_mBB61CE77C459A6F27931E552B7FC42CBF1D7FD71_inline (List_1_tF68C9554A6F034A84553ECE014DC6E52B893E7E8* __this, NoteScript_t1C9A316730C4AE4A0491098D0F75B9D42ECCC541* ___0_item, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_tF68C9554A6F034A84553ECE014DC6E52B893E7E8*, NoteScript_t1C9A316730C4AE4A0491098D0F75B9D42ECCC541*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
-}
-inline NoteScript_t1C9A316730C4AE4A0491098D0F75B9D42ECCC541* List_1_get_Item_m8C924E03DA78899A8690DC38956C7C8C876BB209 (List_1_tF68C9554A6F034A84553ECE014DC6E52B893E7E8* __this, int32_t ___0_index, const RuntimeMethod* method)
-{
-	return ((  NoteScript_t1C9A316730C4AE4A0491098D0F75B9D42ECCC541* (*) (List_1_tF68C9554A6F034A84553ECE014DC6E52B893E7E8*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 inline int32_t List_1_get_Count_m2153C54F9E6842411D3D24E1D21FFD83E5DD04F8_inline (List_1_tF68C9554A6F034A84553ECE014DC6E52B893E7E8* __this, const RuntimeMethod* method)
@@ -1854,6 +1853,7 @@ inline SaveData_tD8A7BA38011DB392E3FC7630525E745AED3AAF29* JsonUtility_FromJson_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PageNote_LoadNote_m487B6FA4867EFF55A4B8CD59666C9F15FBB7E616 (PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* __this, String_t* ___0_titleText, String_t* ___1_text, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotesManager_CreateSpecificNote_m76E83891E22C483B794544862A623E849C86DA44 (NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* __this, int32_t ___0_id, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386 (String_t* ___0_path, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300 (String_t* ___0_name, const RuntimeMethod* method) ;
 inline GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* GameObject_GetComponent_TisGameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B_m4FD6F407F9A56511E8B45FD4D25D383F1AE7252B (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
 	return ((  GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
@@ -1896,49 +1896,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_Awake_m3C5348346CB0135A05
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisGameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B_mCCC091C10A96BF0EBEFF9334B7A884F4FC0FF694_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_0 = NULL;
-	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:9>
-		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____pages;
-		V_0 = L_0;
-		V_1 = 0;
-		goto IL_0018;
-	}
-
-IL_000b:
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:9>
-		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = V_0;
-		int32_t L_2 = V_1;
-		NullCheck(L_1);
-		int32_t L_3 = L_2;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:11>
-		NullCheck(L_4);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		int32_t L_5 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_5, 1));
-	}
-
-IL_0018:
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:9>
-		int32_t L_6 = V_1;
-		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_7 = V_0;
-		NullCheck(L_7);
-		if ((((int32_t)L_6) < ((int32_t)((int32_t)(((RuntimeArray*)L_7)->max_length)))))
-		{
-			goto IL_000b;
-		}
-	}
-	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:14>
-		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_8;
-		L_8 = Component_GetComponentInParent_TisGameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B_mCCC091C10A96BF0EBEFF9334B7A884F4FC0FF694(__this, Component_GetComponentInParent_TisGameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B_mCCC091C10A96BF0EBEFF9334B7A884F4FC0FF694_RuntimeMethod_var);
-		__this->___gameMaster = L_8;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___gameMaster), (void*)L_8);
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:15>
+		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_0;
+		L_0 = Component_GetComponentInParent_TisGameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B_mCCC091C10A96BF0EBEFF9334B7A884F4FC0FF694(__this, Component_GetComponentInParent_TisGameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B_mCCC091C10A96BF0EBEFF9334B7A884F4FC0FF694_RuntimeMethod_var);
+		__this->___gameMaster = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___gameMaster), (void*)L_0);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:16>
 		return;
 	}
 }
@@ -1946,9 +1910,9 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_CreateNewNoteButton_m53A85476FF2CC6C15A352E709B85BBE6ACA1EC31 (ButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:24>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:26>
 		ButtonsManager_SwitchPagesOff_m78E599BDDFF438E639B2B3086D186815CAB36812(__this, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:25>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:27>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____pages;
 		NullCheck(L_0);
 		int32_t L_1 = 1;
@@ -1958,27 +1922,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_CreateNewNoteButton_m53A8
 		L_3 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:26>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:28>
 		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_4 = __this->___gameMaster;
 		NullCheck(L_4);
 		NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* L_5;
 		L_5 = GameMaster_get_notesManager_mF1E3FC17A8802934B215B99C4A8358815D556F28_inline(L_4, NULL);
 		NullCheck(L_5);
 		NotesManager_CreateNote_m2F15B35346ED332E432285D9F37548725DB243BC(L_5, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:27>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:29>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = __this->____returnButton;
 		NullCheck(L_6);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_6, (bool)1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:28>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:30>
 		__this->____selectedPage = 1;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:29>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:31>
 		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_7 = __this->___gameMaster;
 		NullCheck(L_7);
 		PageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E* L_8;
 		L_8 = GameMaster_get_pageNewNote_mEFD9E247B8B6EE18E76793CC41D3B9D96F46FCCF_inline(L_7, NULL);
 		NullCheck(L_8);
 		PageNewNote_ClearText_m9D33698992059C8476CF13E19C496658F00CA085(L_8, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:30>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:32>
 		return;
 	}
 }
@@ -1986,9 +1950,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_CreateNewNoteButton_m53A8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_LoadNotesButton_m7F04DFC34715A55EB7DCED051C74060C77AC08AF (ButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:34>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:36>
 		ButtonsManager_SwitchPagesOff_m78E599BDDFF438E639B2B3086D186815CAB36812(__this, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:35>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:37>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____pages;
 		NullCheck(L_0);
 		int32_t L_1 = 2;
@@ -1998,20 +1962,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_LoadNotesButton_m7F04DFC3
 		L_3 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:36>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:38>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->____returnButton;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:37>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:39>
 		__this->____selectedPage = 2;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:38>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:40>
 		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_5 = __this->___gameMaster;
 		NullCheck(L_5);
 		PageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C* L_6;
 		L_6 = GameMaster_get_pageLoadNote_m4A672F2D547DAF4D35CFAE4B8E828D81F5572C89_inline(L_5, NULL);
 		NullCheck(L_6);
 		PageLoadNote_SynchronizePageLoadNote_mA79E3BBE3C2B4153CABB7C6E70A57D1F5B17A6F3(L_6, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:39>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:41>
 		return;
 	}
 }
@@ -2019,7 +1983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_LoadNotesButton_m7F04DFC3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_ReturnButton_m8DA721569C337602A03DE1093B633AF080FF9F3C (ButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:43>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:45>
 		int32_t L_0 = __this->____selectedPage;
 		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
 		{
@@ -2027,7 +1991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_ReturnButton_m8DA721569C3
 		}
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:45>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:47>
 		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_1 = __this->___gameMaster;
 		NullCheck(L_1);
 		NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* L_2;
@@ -2038,7 +2002,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_ReturnButton_m8DA721569C3
 
 IL_0019:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:48>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:50>
 		int32_t L_3 = __this->____selectedPage;
 		if ((!(((uint32_t)L_3) == ((uint32_t)3))))
 		{
@@ -2046,7 +2010,7 @@ IL_0019:
 		}
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:50>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:52>
 		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_4 = __this->___gameMaster;
 		NullCheck(L_4);
 		SaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400* L_5;
@@ -2057,9 +2021,9 @@ IL_0019:
 
 IL_0032:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:53>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:55>
 		ButtonsManager_SwitchPagesOff_m78E599BDDFF438E639B2B3086D186815CAB36812(__this, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:54>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:56>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_6 = __this->____pages;
 		NullCheck(L_6);
 		int32_t L_7 = 0;
@@ -2069,11 +2033,11 @@ IL_0032:
 		L_9 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_8, NULL);
 		NullCheck(L_9);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:55>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:57>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->____returnButton;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)0, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:56>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:58>
 		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_11 = __this->___gameMaster;
 		NullCheck(L_11);
 		NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* L_12;
@@ -2081,9 +2045,9 @@ IL_0032:
 		NullCheck(L_12);
 		L_12->____selectedNote = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_12->____selectedNote), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:57>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:59>
 		__this->____selectedPage = 0;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:58>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:60>
 		return;
 	}
 }
@@ -2091,9 +2055,9 @@ IL_0032:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_PageButton_mB8443D0A89447200FA45744942A3B6CC54616C8C (ButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:62>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:64>
 		ButtonsManager_SwitchPagesOff_m78E599BDDFF438E639B2B3086D186815CAB36812(__this, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:63>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:65>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____pages;
 		NullCheck(L_0);
 		int32_t L_1 = 3;
@@ -2103,68 +2067,101 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_PageButton_mB8443D0A89447
 		L_3 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:64>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:66>
 		__this->____selectedPage = 3;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:65>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:67>
 		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_4 = __this->___gameMaster;
 		NullCheck(L_4);
 		PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* L_5;
 		L_5 = GameMaster_get_pageNote_mAEF8078851F2BA4548DB643D337AB66DC0FB4AEF_inline(L_4, NULL);
 		NullCheck(L_5);
 		PageNote_SynchronizeNote_mA3433A7A9ECE468AC64A62D2760444755BE5F9CF(L_5, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:66>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:68>
 		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_6 = __this->___gameMaster;
 		NullCheck(L_6);
 		PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* L_7;
 		L_7 = GameMaster_get_pageNote_mAEF8078851F2BA4548DB643D337AB66DC0FB4AEF_inline(L_6, NULL);
 		NullCheck(L_7);
 		PageNote_ClearAllText_mEAC85204ED52952287CF76BD13A01E1F9491E6DB(L_7, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:67>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:69>
 		return;
 	}
 }
 // Method Definition Index: 71709
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_LoadPageButton_m4C2014BFFDF850478CC31713C4F02200A11B63D7 (ButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19* __this, int32_t ___0_id, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:71>
-		ButtonsManager_SwitchPagesOff_m78E599BDDFF438E639B2B3086D186815CAB36812(__this, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:72>
-		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____pages;
-		NullCheck(L_0);
-		int32_t L_1 = 3;
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
-		NullCheck(L_2);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_2, NULL);
-		NullCheck(L_3);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m8C924E03DA78899A8690DC38956C7C8C876BB209_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:73>
-		__this->____selectedPage = 3;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:74>
-		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_4 = __this->___gameMaster;
-		NullCheck(L_4);
-		NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* L_5;
-		L_5 = GameMaster_get_notesManager_mF1E3FC17A8802934B215B99C4A8358815D556F28_inline(L_4, NULL);
-		int32_t L_6 = ___0_id;
-		NullCheck(L_5);
-		NotesManager_SynchronizeNote_mE5BD2E93074E0D0B7E53E61A0DB7C646BC44A654(L_5, L_6, NULL);
+		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_0 = __this->___gameMaster;
+		NullCheck(L_0);
+		NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* L_1;
+		L_1 = GameMaster_get_notesManager_mF1E3FC17A8802934B215B99C4A8358815D556F28_inline(L_0, NULL);
+		NullCheck(L_1);
+		List_1_tF68C9554A6F034A84553ECE014DC6E52B893E7E8* L_2 = L_1->____notesList;
+		int32_t L_3 = ___0_id;
+		NullCheck(L_2);
+		NoteScript_t1C9A316730C4AE4A0491098D0F75B9D42ECCC541* L_4;
+		L_4 = List_1_get_Item_m8C924E03DA78899A8690DC38956C7C8C876BB209(L_2, L_3, List_1_get_Item_m8C924E03DA78899A8690DC38956C7C8C876BB209_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:73>
+		return;
+	}
+
+IL_001f:
+	{
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:75>
-		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_7 = __this->___gameMaster;
-		NullCheck(L_7);
-		PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* L_8;
-		L_8 = GameMaster_get_pageNote_mAEF8078851F2BA4548DB643D337AB66DC0FB4AEF_inline(L_7, NULL);
-		NullCheck(L_8);
-		PageNote_SynchronizeNote_mA3433A7A9ECE468AC64A62D2760444755BE5F9CF(L_8, NULL);
+		ButtonsManager_SwitchPagesOff_m78E599BDDFF438E639B2B3086D186815CAB36812(__this, NULL);
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:76>
-		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_9 = __this->___gameMaster;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_6 = __this->____pages;
+		NullCheck(L_6);
+		int32_t L_7 = 3;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_8);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
+		L_9 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_8, NULL);
 		NullCheck(L_9);
-		SaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400* L_10;
-		L_10 = GameMaster_get_saveLoad_m11147FC888EF59B59281FEC6480A24F57F1FA6F1_inline(L_9, NULL);
-		int32_t L_11 = ___0_id;
-		NullCheck(L_10);
-		SaveLoadManager_LoadPage_mF5326D11FC1CB978A9DD7A0D87B17ED2215C2E9B(L_10, L_11, NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_9, (bool)1, NULL);
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:77>
+		__this->____selectedPage = 3;
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:78>
+		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_10 = __this->___gameMaster;
+		NullCheck(L_10);
+		NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* L_11;
+		L_11 = GameMaster_get_notesManager_mF1E3FC17A8802934B215B99C4A8358815D556F28_inline(L_10, NULL);
+		int32_t L_12 = ___0_id;
+		NullCheck(L_11);
+		NotesManager_SynchronizeNote_mE5BD2E93074E0D0B7E53E61A0DB7C646BC44A654(L_11, L_12, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:79>
+		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_13 = __this->___gameMaster;
+		NullCheck(L_13);
+		PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* L_14;
+		L_14 = GameMaster_get_pageNote_mAEF8078851F2BA4548DB643D337AB66DC0FB4AEF_inline(L_13, NULL);
+		NullCheck(L_14);
+		PageNote_SynchronizeNote_mA3433A7A9ECE468AC64A62D2760444755BE5F9CF(L_14, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:80>
+		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_15 = __this->___gameMaster;
+		NullCheck(L_15);
+		SaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400* L_16;
+		L_16 = GameMaster_get_saveLoad_m11147FC888EF59B59281FEC6480A24F57F1FA6F1_inline(L_15, NULL);
+		int32_t L_17 = ___0_id;
+		NullCheck(L_16);
+		SaveLoadManager_LoadPage_mF5326D11FC1CB978A9DD7A0D87B17ED2215C2E9B(L_16, L_17, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:81>
 		return;
 	}
 }
@@ -2172,7 +2169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_LoadPageButton_m4C2014BFF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_DeleteButton_m28076F8989C1D177CAF874EC13A3BDCCD0BBAED0 (ButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19* __this, int32_t ___0_id, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:81>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:85>
 		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_0 = __this->___gameMaster;
 		NullCheck(L_0);
 		NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* L_1;
@@ -2180,14 +2177,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_DeleteButton_m28076F8989C
 		int32_t L_2 = ___0_id;
 		NullCheck(L_1);
 		NotesManager_DeleteNote_m85716C9745873B2053F1BCF9C3AEA5D5A340ABFD(L_1, L_2, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:82>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:86>
 		GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* L_3 = __this->___gameMaster;
 		NullCheck(L_3);
 		PageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C* L_4;
 		L_4 = GameMaster_get_pageLoadNote_m4A672F2D547DAF4D35CFAE4B8E828D81F5572C89_inline(L_3, NULL);
 		NullCheck(L_4);
 		PageLoadNote_SynchronizePageLoadNote_mA79E3BBE3C2B4153CABB7C6E70A57D1F5B17A6F3(L_4, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:83>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:87>
 		return;
 	}
 }
@@ -2201,10 +2198,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_ExitButton_mD3E51632E7780
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:87>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:91>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:88>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:92>
 		return;
 	}
 }
@@ -2214,7 +2211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_SwitchPagesOff_m78E599BDD
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:94>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:98>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____pages;
 		V_0 = L_0;
 		V_1 = 0;
@@ -2223,13 +2220,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_SwitchPagesOff_m78E599BDD
 
 IL_000b:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:94>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:98>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:96>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:100>
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_4, NULL);
@@ -2241,7 +2238,7 @@ IL_000b:
 
 IL_001d:
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:94>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:98>
 		int32_t L_7 = V_1;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = V_0;
 		NullCheck(L_8);
@@ -2251,7 +2248,7 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:98>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:102>
 		return;
 	}
 }
@@ -2259,9 +2256,9 @@ IL_001d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_FirstFrameSetMainPage_m103ADAB32D16753911DEB28D1AC522E59D794E50 (ButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:102>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:106>
 		ButtonsManager_SwitchPagesOff_m78E599BDDFF438E639B2B3086D186815CAB36812(__this, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:103>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:107>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_0 = __this->____pages;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
@@ -2271,11 +2268,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonsManager_FirstFrameSetMainPage_m10
 		L_3 = GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC(L_2, NULL);
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:104>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:108>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->____returnButton;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:105>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/ButtonsManager.cs:109>
 		return;
 	}
 }
@@ -2432,61 +2429,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameMaster_Awake_mB3DBA083314EA8FCA22A15
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19_m71F965A79673AC93BD8C48947EEE9ED58F23A0BC_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisNotesManager_tD186238281AC6C6DD083D5617258C11C9270050A_m2AC4A8398083C287C1E99BCB272E5ED0DCE92A14_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInChildren_TisSaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400_m36A82302F618D715A497820ECC1D9BD03168B0BF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisPageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C_mCB6FEACA9813E62A44A965EFABE01AB5842405DE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisPageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E_m75653C4FFF8355BAD9AFA1C53BEFCA8AF216783D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisPageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01_mC9D5846F86D622A524C9B1A6288F408AC41A45B1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58458072691C61AC4021271A234AB7CD1DD89823);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8A99DB31FA4FF1C2F44F62E43541CF088D0A172B);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB02F242735DA352588152B43E7C5D987A55CEBC5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisPageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C_mDAA1CDBEF0FBAB1D342B8B02F7BF47DAD27844DE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisPageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E_m0805E1EF17575BC74C93834EF1D057E7412CA15D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentInChildren_TisPageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01_m1E99693D32924BB71D71BF69F92A0067B585CAF6_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_2 = NULL;
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:13>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:15>
 		NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* L_0;
 		L_0 = Component_GetComponentInChildren_TisNotesManager_tD186238281AC6C6DD083D5617258C11C9270050A_m2AC4A8398083C287C1E99BCB272E5ED0DCE92A14(__this, Component_GetComponentInChildren_TisNotesManager_tD186238281AC6C6DD083D5617258C11C9270050A_m2AC4A8398083C287C1E99BCB272E5ED0DCE92A14_RuntimeMethod_var);
 		GameMaster_set_notesManager_m646E46FF8D2243408843779DB7847BD3A769CB9B_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:14>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:16>
 		ButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19* L_1;
 		L_1 = Component_GetComponentInChildren_TisButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19_m71F965A79673AC93BD8C48947EEE9ED58F23A0BC(__this, Component_GetComponentInChildren_TisButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19_m71F965A79673AC93BD8C48947EEE9ED58F23A0BC_RuntimeMethod_var);
 		GameMaster_set_buttonsManager_mBE5E7B799B6F3018A024D7AB554F6C76A7970DE9_inline(__this, L_1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:15>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:17>
 		SaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400* L_2;
 		L_2 = Component_GetComponentInChildren_TisSaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400_m36A82302F618D715A497820ECC1D9BD03168B0BF(__this, Component_GetComponentInChildren_TisSaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400_m36A82302F618D715A497820ECC1D9BD03168B0BF_RuntimeMethod_var);
 		GameMaster_set_saveLoad_m8C58914A97AB46519A3F61993B90C6FA027ACC39_inline(__this, L_2, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:17>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralB02F242735DA352588152B43E7C5D987A55CEBC5, NULL);
-		V_0 = L_3;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:18>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_0;
-		NullCheck(L_4);
-		PageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E* L_5;
-		L_5 = GameObject_GetComponent_TisPageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E_m75653C4FFF8355BAD9AFA1C53BEFCA8AF216783D(L_4, GameObject_GetComponent_TisPageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E_m75653C4FFF8355BAD9AFA1C53BEFCA8AF216783D_RuntimeMethod_var);
-		GameMaster_set_pageNewNote_m5B76DCC97939794D9DB7B60D8D3B0C0E284629FF_inline(__this, L_5, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:19>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->____pageContainer;
+		NullCheck(L_3);
+		PageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E* L_4;
+		L_4 = GameObject_GetComponentInChildren_TisPageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E_m0805E1EF17575BC74C93834EF1D057E7412CA15D(L_3, (bool)1, GameObject_GetComponentInChildren_TisPageNewNote_t71D1F47BF1E9310C6A23E5B09782F24370F22A4E_m0805E1EF17575BC74C93834EF1D057E7412CA15D_RuntimeMethod_var);
+		GameMaster_set_pageNewNote_m5B76DCC97939794D9DB7B60D8D3B0C0E284629FF_inline(__this, L_4, NULL);
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:20>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
-		L_6 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral58458072691C61AC4021271A234AB7CD1DD89823, NULL);
-		V_1 = L_6;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->____pageContainer;
+		NullCheck(L_5);
+		PageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C* L_6;
+		L_6 = GameObject_GetComponentInChildren_TisPageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C_mDAA1CDBEF0FBAB1D342B8B02F7BF47DAD27844DE(L_5, (bool)1, GameObject_GetComponentInChildren_TisPageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C_mDAA1CDBEF0FBAB1D342B8B02F7BF47DAD27844DE_RuntimeMethod_var);
+		GameMaster_set_pageLoadNote_m90929EC1735E718D308E38788ED6924C2EC8DA36_inline(__this, L_6, NULL);
 		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:21>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->____pageContainer;
 		NullCheck(L_7);
-		PageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C* L_8;
-		L_8 = GameObject_GetComponent_TisPageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C_mCB6FEACA9813E62A44A965EFABE01AB5842405DE(L_7, GameObject_GetComponent_TisPageLoadNote_t8D49093D25CC57DE78A0012D74249B5430F7D29C_mCB6FEACA9813E62A44A965EFABE01AB5842405DE_RuntimeMethod_var);
-		GameMaster_set_pageLoadNote_m90929EC1735E718D308E38788ED6924C2EC8DA36_inline(__this, L_8, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:23>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
-		L_9 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral8A99DB31FA4FF1C2F44F62E43541CF088D0A172B, NULL);
-		V_2 = L_9;
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:24>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = V_2;
-		NullCheck(L_10);
-		PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* L_11;
-		L_11 = GameObject_GetComponent_TisPageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01_mC9D5846F86D622A524C9B1A6288F408AC41A45B1(L_10, GameObject_GetComponent_TisPageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01_mC9D5846F86D622A524C9B1A6288F408AC41A45B1_RuntimeMethod_var);
-		GameMaster_set_pageNote_m2E2492654879BD3D3DDCF42026D6F93692A3B04E_inline(__this, L_11, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:25>
+		PageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01* L_8;
+		L_8 = GameObject_GetComponentInChildren_TisPageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01_m1E99693D32924BB71D71BF69F92A0067B585CAF6(L_7, (bool)1, GameObject_GetComponentInChildren_TisPageNote_t7261D51F42EA86983904C1E10B604CDE74B61C01_m1E99693D32924BB71D71BF69F92A0067B585CAF6_RuntimeMethod_var);
+		GameMaster_set_pageNote_m2E2492654879BD3D3DDCF42026D6F93692A3B04E_inline(__this, L_8, NULL);
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:22>
 		return;
 	}
 }
@@ -2494,23 +2473,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameMaster_Awake_mB3DBA083314EA8FCA22A15
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameMaster_Start_mCB33A7C2B1975F82661393EA7162B040C5DA1F34 (GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:31>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:28>
 		NotesManager_tD186238281AC6C6DD083D5617258C11C9270050A* L_0;
 		L_0 = GameMaster_get_notesManager_mF1E3FC17A8802934B215B99C4A8358815D556F28_inline(__this, NULL);
 		int32_t L_1 = __this->____maxNotesAmount;
 		NullCheck(L_0);
 		NotesManager_CreateList_m8A971156ADEDF39051B40FF491A0947BA3C2BE9B(L_0, L_1, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:32>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:29>
 		ButtonsManager_t4B34529FF8B4A6C2B09973BB1D53FDFDD470EC19* L_2;
 		L_2 = GameMaster_get_buttonsManager_m9A4D27F8C3BBF69A8B66C822EAFFFBED6E68FCD7_inline(__this, NULL);
 		NullCheck(L_2);
 		ButtonsManager_FirstFrameSetMainPage_m103ADAB32D16753911DEB28D1AC522E59D794E50(L_2, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:33>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:30>
 		SaveLoadManager_t6BE6510EA709976E31284BA6AD41BB6C2AB90400* L_3;
 		L_3 = GameMaster_get_saveLoad_m11147FC888EF59B59281FEC6480A24F57F1FA6F1_inline(__this, NULL);
 		NullCheck(L_3);
 		SaveLoadManager_InitializeLoadPage_mCB0EF2926DF11BB4C8E0C63A98848EC8C226D769(L_3, NULL);
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:34>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:31>
 		return;
 	}
 }
@@ -2518,7 +2497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameMaster_Start_mCB33A7C2B1975F82661393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameMaster__ctor_m129F9606E5D75C368420BE6B10EE572EE25E7780 (GameMaster_t76AF9DABA040CC3DF30EA9F5915F54C83D09649B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:27>
+		//<source_info:C:/Users/User/Desktop/Unity Programs/Notes App/Assets/Scripts/Managers/GameMaster.cs:24>
 		__this->____maxNotesAmount = 6;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;

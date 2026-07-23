@@ -6600,6 +6600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9cb209d2de897544a1a34dcbc2ca4df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameMaster
+  _pageContainer: {fileID: 2060123858}
   _maxNotesAmount: 6
 --- !u!1 &1880326590
 GameObject:

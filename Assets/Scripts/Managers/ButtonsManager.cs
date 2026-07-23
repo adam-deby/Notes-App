@@ -4,15 +4,17 @@ public class ButtonsManager : MonoBehaviour
 {
     private GameMaster gameMaster;
     [SerializeField] private GameObject[] _pages;
+    
     private void Awake()
     {
-        foreach(GameObject page in _pages)
+        /*foreach(GameObject page in _pages)
         {
             page.SetActive(true);
-        }   
+        }*/
         
         gameMaster = GetComponentInParent<GameMaster>();
     }
+
 
     [SerializeField] private GameObject _returnButton;
 
@@ -68,6 +70,8 @@ public class ButtonsManager : MonoBehaviour
 
     public void LoadPageButton(int id) // page_load_note
     {
+        if (gameMaster.notesManager._notesList[id] == null) return;
+
         SwitchPagesOff();
         _pages[3].gameObject.SetActive(true);
         _selectedPage = SelectedPage.Note;
